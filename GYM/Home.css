@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: lavender;
+    
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(49, 45, 45);
+    color: lavender;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+
+.mid {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.mid a{
+    text-decoration: none;
+    color: lavender;
+    font-size: 20px;
+}
+
+.mid a:hover{
+    color: orange;
+}
+
+.left {
+    font-size: 16px;
+    width: 86px;
+    height: 26px;
+    background: orange;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.left:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* main */
+
+.hero{
+    margin: 20vh 10px;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+
+}
+
+.lefthero{
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   color: lavender;
+}
+
+.hero-button{
+    margin: 20px 0px;
+}
+
+
+.hero img{
+    width: 25% ;
+height: auto;
+}
+
+.footer {
+    text-align: center;
+    margin: 10px 0px;
+    color: orange;
+}
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    color: lavender;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: rgb(49, 45, 45);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
+    flex-wrap: wrap; /* Prevents overflow */
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.header .right img {
+    max-height: 50px;
+    margin-right: 20px;
+}
+
+.mid {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.mid a {
+    text-decoration: none;
+    color: lavender;
+    font-size: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    white-space: nowrap; /* Prevents breaking inside link text */
+}
+
+.mid a:hover {
+    color: orange;
+}
+
+.left {
+    font-size: 16px;
+    width: 90px;
+    height: 32px;
+    background: orange;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.left:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    margin: 20vh 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lefthero {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.hero-button {
+    margin: 20px 0px;
+}
+
+.hero img {
+    width: 25%;
+    height: auto;
+}
+
+/* Footer */
+    text-align: center;
+    margin: 0;
+}
+r;
+   margin-top: 20px;
+/* Responsive Design */    margin-bottom: 0;
+
+/* Tablet and Small Laptop */
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column; Small Laptop */
+        text-align: center;
+    }
+    .mid {   flex-direction: column;
+        justify-content: center;xt-align: center;
+        width: 100%;
+    }
+    .hero {   justify-content: center;
+        flex-direction: column;th: 100%;
+        text-align: center;
+    }
+    .hero img {   flex-direction: column;
+        width: 50%;ign: center;
+        margin: 20px auto 0;
+        display: block;
+    }
+}   margin: 20px auto 0;
+       display: block;
+/* Tablet Portrait & Large Phones */    }
+@media (max-width: 768px) {
+    .mid a {
+        font-size: 18px;rtrait & Large Phones */
+    }) {
+    .hero img {mid a {
+        width: 70%;ze: 18px;
+    }
+    .hero-content {hero img {
+        padding: 0 15px;
+    }
+}hero-content {
+       padding: 0 15px;
+/* Mobile Devices */    }
+@media (max-width: 480px) {
+    .mid {
+        flex-direction: column;Devices */
+        gap: 10px;
+        align-items: center;
+        width: 100%;mn;
+    }
+    .hero img {   align-items: center;
+        width: 90%;100%;
+    }
+    .left {hero img {
+        width: 70px;th: 90%;
+        height: 24px;
+        font-size: 14px;
+    }
+    h1.welcome {   height: 24px;
+        font-size: 24px;e: 14px;
+    }
+    p.description {1.welcome {
+        font-size: 14px;24px;
+    }
+}.description {
+}
